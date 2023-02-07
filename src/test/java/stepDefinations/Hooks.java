@@ -20,7 +20,7 @@ import runner.Runner;
 
 public class Hooks extends Runner{
 
-	@cucumber.api.java.Before
+	@io.cucumber.java.Before
 	public static void FireFoxNavigateURL() throws InterruptedException {
 	
 //............
@@ -42,7 +42,7 @@ public class Hooks extends Runner{
         
 	}
 
-	@cucumber.api.java.After
+	@io.cucumber.java.After
 	public static void After() throws InterruptedException {
 		System.out.println("End of test");
 		softAssertion.assertAll();

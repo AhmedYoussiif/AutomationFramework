@@ -3,9 +3,9 @@ package stepDefinations;
 import static org.testng.Assert.assertTrue;
 
 import Utilities.ExcelUtil;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 import pages.*;
 import runner.Runner;
 import static org.testng.Assert.assertEquals;

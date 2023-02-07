@@ -3,9 +3,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
 import org.junit.runner.RunWith;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.java.*;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 
 @RunWith(Cucumber.class)
